@@ -10,7 +10,7 @@ def easyy(n):
     if n == 'easy':
         # print("You have 10 attempts remaining to guess the number. ")
         while True:
-            print(f"You have {eas} attempts remaining to guess the number.")
+            print(f"You have {eas} attempts remained to guess the number.")
             guess = int(input("Make a guess:"))
             if guess < result:
                 print("Too low.\nGuess again.")
